@@ -1,0 +1,352 @@
+  /* styling of the body */
+ body{
+    margin:0;
+    font-size: 20px;
+    font-family: 'Roboto' ;
+ }
+
+   /* styling of the header */
+ header{
+   display: flex;
+   background-color: #FFA500;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+ }
+
+ .logo{
+   width:70px;
+
+ }
+ nav{
+   position: absolute;
+   right: 10px;
+   align-self: center;
+   font-size: 20px;
+   word-spacing: 16px;
+    
+ }
+
+ a:hover{
+   color: white;
+ }
+
+ .active{
+   color: white;
+ }
+ 
+ 
+.profile{
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  opacity: 0.4; 
+}
+.overlay{
+  background-color: black;
+  max-height: 200px;
+  opacity: 0.9;
+}
+ 
+#demo{
+   position: absolute;
+   left: 211px;
+   top: 150px;
+   color: white;
+   text-transform: uppercase;
+   font-weight: 600px;
+}
+
+           /* styling of the destination images */
+#two{
+  display: flex;
+  text-align: center;
+}
+ 
+#destination{
+ flex-basis: 70%;
+}
+
+ 
+#destinationContent{
+  display: flex;
+  margin-bottom: 35px;
+}
+ 
+ #kigali, #kibuye, #gisenyi{
+   flex-basis: 35%;
+
+ }
+
+ .DImage{
+  width: 100%;
+  height: auto;
+ }
+  
+ .imgContainer{
+    margin: 0 5%;
+ }
+.three h1{
+  text-align: center;
+}
+
+
+  /* styling for the destination content */
+.popup:target{
+  visibility: visible;
+  opacity: 1;
+  
+  }
+
+.popup{
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.3);
+  
+  }
+  .popupContent{
+    background-color: #fefefe;
+    text-align:left;
+    height: auto;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #888;
+    width: 600px;
+  }
+  
+  .popupContent table{
+    width: 600px;
+  }
+  .popupContent table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+  
+  th, .days{
+    background: orange;
+  }
+  
+  
+  .popupContent h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+   
+  }
+  
+  .popupContent a{
+    text-decoration: none;
+  }
+  .close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+   
+  
+  .close:hover,
+  .close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+#four{
+  display: flex;
+   
+}
+
+   /* styling for the about page */
+#about{
+  flex-basis: 70% ;
+}
+
+#about h1{
+  text-align: center;
+}
+#aboutContent{
+  display: flex;
+  margin-left: 10px;
+}
+
+
+.details{
+  flex-basis: 45%;
+}
+.details h1{
+   text-align: center;
+}
+
+.form{
+  flex-basis: 45%;
+   
+}
+
+.form h1{
+  text-align: center;
+}
+
+input:focus, textarea:focus{
+  background-color: #FFA500;
+  outline: none;
+}
+ 
+input{
+  width: 300px;
+  font-size: 15px;
+}
+textarea{
+  width: 300px;
+  height: 100px;
+}
+
+.form .submit{
+  background: orange;
+}
+
+button{ 
+height: 50px;
+width: 100px;
+background-color: #FFA500;
+font-size: 15px;
+outline: none;
+font-weight: bolder;
+border-radius: 20px;
+}
+
+button[type=submit]{
+position: relative;
+left: 90px;
+  
+}
+
+button:hover{
+  color: white;
+}
+
+.line{
+    font-weight: bold;
+}
+         
+
+     /* styling of the  video part */
+.video{
+  flex-basis: 30%;
+
+}
+
+.video h1{
+  text-align: center;
+}
+   
+    /* styling of the footer */
+
+.footer{
+  display: flex;
+  background-color: #FFA500;
+  margin-top: 10px;
+}
+
+#nav{
+  flex-basis: 35%;
+  margin-left: 60px;
+}
+
+#nav li{
+  list-style-type: none;
+
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+footer .copyright{
+  text-align: center;
+}
+
+a[type=copyright]{
+  text-decoration: none;
+  color: #FFA500;
+}
+ 
+.fa{
+  padding: 10px;
+}
+
+.address{
+  padding: 10px;
+}
+
+#nav, #information, #socialMedia{
+  flex-basis: 35%;
+  margin-right: 20px;
+
+  
+}
+
+
+nav a{
+ text-decoration: none;
+  color: black;
+}
+
+#information ul li{
+ list-style-type: none;
+ 
+}
+
+#socialMedia ul li{
+list-style-type: none;
+
+}
+
+/* 
+   styling of the visa page */
+ .content{
+  border: solid  2px grey;
+  border-radius: 15px;
+  padding: 10px;
+  margin: -5px 10px;
+  flex-basis: 50%;
+     
+
+ }
+
+ #visa{
+  display: flex;
+}
+
+ .content h1, .content h2{
+    text-align: center;
+ }
+
+.button{
+  text-align: center;
+}
+
+
+#visa a{
+  text-decoration: none;
+  color: #FFA500;
+
+}
+
+#five h1{
+  text-align: center;
+}
+
+ 
+
